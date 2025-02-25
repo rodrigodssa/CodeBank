@@ -4,7 +4,7 @@ Este projeto é um simulador simples de conta bancária desenvolvido em **Java**
 
 ## Tecnologias Utilizadas
 
-- **Linguagem:** Java 17
+- **Linguagem:** Java 17 ou superior
 - **Bibliotecas:** `java.util.Scanner`
 
 ## Funcionalidades
