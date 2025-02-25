@@ -29,6 +29,30 @@ public class Desafio {
             System.out.println(menu);
             opcao = leitura.nextInt();
 
+            if (opcao == 1) {
+                System.out.println("O saldo atualizado é: " + saldo);
+            } else if (opcao == 2) {
+                System.out.println("Digite o valor a ser transferido: ");
+                double valor = leitura.nextDouble();
+                if (valor > saldo) {
+                    System.out.println("Saldo insuficiente!");
+                } else {
+                    saldo -= valor;
+                    System.out.println("O saldo atualizado é: " + saldo);
+                }
+            } else if (opcao == 3) {
+                System.out.println("Digite o valor a ser depositado: ");
+                double valor = leitura.nextDouble();
+                saldo += valor;
+                System.out.println("O saldo atualizado é: " + saldo);
+            } else if (opcao == 4) {
+                System.out.println("Saindo do sistema...");
+
+
+
+                System.out.println("Obrigado por usar nosso sistema! Até a próxima.");
+
+            }
         }
     }
 }
